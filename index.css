@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+}
+.main-body {
+  flex: 1;
+}
+button {
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px 26px;
+  margin: 0 5px;
+  border-radius: 40px;
+}
+.points {
+  margin-bottom: 25px;
+}
+.stats {
+  font-size: 108px;
+  font-weight: bold;
+}
+.title{
+  margin-top: 100px;
+}
